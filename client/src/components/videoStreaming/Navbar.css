@@ -1,0 +1,46 @@
+@import "~antd/dist/antd.css";
+
+.videoNavBarTable {
+  position: fixed;
+  top: 11%;
+  height: 5%;
+  z-index: 1;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.videoNavBarTable tr {
+text-align: center;
+}
+
+#homeButton {
+width: 20%;
+background-color:rgb(65, 72, 80);
+border-radius: 5px;
+font-weight: bold;
+}
+
+#subsButton {
+  width: 20%;
+  background-color:rgb(65, 72, 80);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#uploadButton {
+  width: 20%;
+  background-color:rgb(65, 72, 80);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .menu__mobile-button {
+    display: inline-block !important;
+  }
+
+  .videoNavBarTable {
+    top: 23%;
+  }
+
+}
